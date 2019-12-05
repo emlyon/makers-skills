@@ -1,6 +1,6 @@
 # makers-skills
-## CC BY-NC-SA
-This content was created by the makers' lab emlyon team!
+### CC BY-NC-SA
+This content was created & shared by the makers' lab emlyon team!
 This license lets others remix, adapt, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.
 
 ### Digital fabrication
@@ -25,10 +25,10 @@ This license lets others remix, adapt, and build upon your work non-commercially
 - [Exploration](https://emlyon.github.io/makers-skills/exploration)
 - [Storytelling](https://emlyon.github.io/makers-skills/storytelling)
 - [User testing](https://emlyon.github.io/makers-skills/user-testing)
-- Documentation
+- Documentation (stay tuned!)
 
 ### Internet of Things
 - [Electronics](https://emlyon.github.io/makers-skills/electronics)
 - [Data Literacy](https://emlyon.github.io/makers-skills/data-literacy)
-- Hardware
-- Networks
+- Hardware (stay tuned!)
+- Networks (stay tuned!)
