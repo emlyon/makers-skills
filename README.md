@@ -1,31 +1,31 @@
 # makers-skills
 
 ### Digital fabrication
-- [2D design](/2d-design)
-- [Laser cutting](/laser-cutting)
-- [3D design](/3d-design)
-- [3D printing](/3d-printing)
+- [2D design](/makers-skills/2d-design)
+- [Laser cutting](/makers-skills/laser-cutting)
+- [3D design](/makers-skills/3d-design)
+- [3D printing](/makers-skills/3d-printing)
 
 ### Web design
-- [Programming](/programming)
-- [Web coding](/web-coding)
-- [UX design](/ux-design)
-- [API](/api)
+- [Programming](/makers-skills/programming)
+- [Web coding](/makers-skills/web-coding)
+- [UX design](/makers-skills/ux-design)
+- [API](/makers-skills/api)
 
 ### Artificial Intelligence
-- [Chatbot](/chatbot)
-- [Classification](/classification)
-- [Computer Vision](/computer-vision)
-- [NLP](/nlp)
+- [Chatbot](/makers-skills/chatbot)
+- [Classification](/makers-skills/classification)
+- [Computer Vision](/makers-skills/computer-vision)
+- [NLP](/makers-skills/nlp)
 
 ### Prototyping
-- [Exploration](/exploration)
-- [Storytelling](/storytelling)
-- [User testing](/user-testing)
+- [Exploration](/makers-skills/exploration)
+- [Storytelling](/makers-skills/storytelling)
+- [User testing](/makers-skills/user-testing)
 - Documentation
 
 ### Internet of Things
-- [Electronics](/electronics)
-- [Data Literacy](/data-literacy)
+- [Electronics](/makers-skills/electronics)
+- [Data Literacy](/makers-skills/data-literacy)
 - Hardware
 - Networks
