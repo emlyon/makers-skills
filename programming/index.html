@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Programming</title>
+    <script src="https://makerslab_emlyon.gitlab.io/js/include.js" charset="utf-8"></script>
+    <script src="https://makerslab_emlyon.gitlab.io/js/includes/head.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="wrap">
+        <main>
+            <h1>Intro to programming with p5.js</h1>
+
+            <p>Are you ready to <strong>discover programming?</strong> Programming is everywhere, from your coffee machine to space rockets. Every day, we are interacting with dozens of objects that use at least a little bit of code. But what does coding really mean? In this module, you will learn the basics of programming with <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript</a> and <a href="https://p5js.org" target="_blank" rel="noopener noreferrer">p5.js</a>!</p>
+
+            <iframe height="562" data-src="https://www.youtube-nocookie.com/embed/exkmiDOFP7s?cc_load_policy=1&cc_lang_pref=en" allowfullscreen></iframe>
+
+            <hr>
+
+            <h2 class="bs-only"id="quiz">Quiz<i class="quiz big"></i></h2>
+            <h2 class="not-on-bs" id="quiz">Quiz</h2>
+
+            <p>Watch the video above first, then answer the quiz to make sure you understand the main notions. <strong>Some questions may need to look up elsewhere</strong> through a quick Internet search!</p>
+
+            <section class="warn bs-only">
+                <p><strong>This quiz is mandatory.</strong> You can answer this quiz as many times as you want, only your best score will be taken into account. Simply reload the page to get a new quiz.</p>
+            </section>
+
+            <section data-hide-before="part1-end" class="important">
+                  <p><strong>The due date has expired. You can no longer answer this quiz.</strong></p>
+            </section>
+            <section data-hide-after="part1-end" class="work quiz" data-quiz="programming"></section>
+
+            <hr>
+
+            <h2 class="bs-only" id="assignment">Assignment<i class="assignment big"></i></h2>
+            <h2 class="not-on-bs" id="assignment">Make it happen!</h2>
+
+            <section class="warn bs-only">
+                <p><strong>This assignment is mandatory.</strong> If you update your work but the link doesn't change, you don't need to re-submit it.</p>
+            </section>
+
+            <h3>Tools</h3>
+
+            <p><strong><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript</a> is a programming language</strong> widely used on the web for scripting behavior and interaction within a web page. Don't be afraid, it's a fairly easy programming language (compared to many others).<p>
+
+            <p><strong><a href="https://p5js.org" target="_blank" rel="noopener noreferrer">p5.js</a> is a JavaScript library</strong> for begginers to discover programming through artistic works such as graphic design, sound design, game design… and more!</p>
+
+            <p><strong><a href="https://editor.p5js.org" target="_blank" rel="noopener noreferrer">editor.p5js.org</a></strong>, a web editor for p5.js, a JavaScript library with the goal of making coding accessible to artists, designers, educators, and beginners.</p>
+
+            <h3>Project</h3>
+
+            <p><strong>Use p5.js to make a drawing machine.</strong> It has to feature at least:
+                <ul>
+                    <li>two 2D shapes</li>
+                    <li>some colors (not only black and white)</li>
+                    <li>a way for the user to switch between different colors and/or shapes</li>
+                </ul>
+            </p>
+
+            <!-- Add github account creation here, see Classification skill -->
+
+            <p>You can log in to p5.js with your GitHub account. If you don't have a GitHub account yet, go to <a href="https://github.com/join" target="_blank" rel="noopener noreferrer">GitHub</a> and create an account. When that's done, <strong>log in to the <a href="https://editor.p5js.org" target="_blank" rel="noopener noreferrer">p5.js web editor</a></strong> and create a new sketch.</p>
+
+            <p><strong>Have a look at the <a href="https://p5js.org/reference/" target="_blank" rel="noopener noreferrer">p5.js reference</a></strong> to learn how to use differents shapes, colors, and detect user inputs.  You can use randomness, and add any interaction you want. Don’t hesitate to write instructions on how to use your drawing machine, either in the drawing or in the code (with comments). When you're done, don't forget to submit the link to your p5.js sketch below!</p>
+
+            <section class="info">
+                <p>To write a comment in your JavaScript code, use two forward slashes (<code>//</code>) like shown below. <strong>Commented lines will not be executed</strong> by the JavaScript engine (it ignores them), which means it's also a great way to temporarily disable a chunk of code without having to entirely delete it.</p>
+                <pre class="no-copy"><code class="javascript">// comments starts with two forward slashes (//)
+function setup() {
+    // create our canvas element
+    createCanvas(400, 300);
+}
+function draw() {
+    // draw some shapes
+    // rect(mouseX, mouseY, 20, 20);
+    ellipse(mouseX, mouseY, random(10, 50));
+}
+</code></pre>
+            </section>
+
+            <div class="bs-only">
+                <h3>Submit</h3>
+
+                <section data-hide-before="part1-end" class="important">
+                    <p><strong>The due date has expired. You can no longer submit your work.</strong></p>
+                </section>
+                <section data-hide-after="part1-end" class="work assignment">
+                    <form action="javascript:void(0)">
+                        <p><strong>Before submitting, make sure you check all of the criteria below.</strong></p>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="rule1" required>
+                                <label for="rule1">This work meets all requirements described above</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule2" required>
+                                <label for="rule2"><strong>You did this work by yourself</strong>, and it’s not someone else’s</label>
+                            </li>
+                        </ul>
+                        <div class="row">
+                            <div>
+                                <input type="url" data-pattern="https://editor.p5js.org/" autocomplete="off" autocorrect="off" required data-tooltip="Make sure you don't add any<br>whitespace to your URL" title="">
+                            </div>
+                            <div class="no-flex">
+                                <button type="submit">Submit link</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+
+            <hr>
+
+            <h2 id="going-further">Going further</h2>
+
+            <h3>Definitions</h3>
+
+            <p><strong>Programming is the process of designing an executable computer program</strong> for accomplishing a specific computing task. It generally involves coding in a specific programming language by writing down lines of code. Don't mix up <a href="https://en.wikipedia.org/wiki/Computer_programming" target="_blank" rel="noopener noreferrer">programming</a> and <a href="https://en.wikipedia.org/wiki/Software_development" target="_blank" rel="noopener noreferrer">development</a>, which rather refers to the larger process of testing, debugging (removing bugs), documenting code, managing the program's environment and so on.</p>
+
+            <p><strong>Many programming languages exist for different purposes</strong> and personnal preferences of developers. The most famous ones include Python, C (along with C++ and C#), Java, <abbr data-tooltip="Hypertext Preprocessor">PHP</abbr>, and many more. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript</a> is one of the three languages of the web with <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">HTML</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">CSS</a>, and therefore can be executed by any browser. Watch out, <abbr data-tooltip="Hypertext Markup Language">HTML</abbr> and <abbr data-tooltip="Cascading Style Sheets">CSS</abbr> are not programming languages but respectively <em>markup</em> and <em>style sheet</em> languages.</p>
+
+            <figure class="contained">
+                <img src="img/languages.jpg" alt="HTML5, CSS3 and JS logos">
+                <figcaption>HTML5, CSS3 and JavaScript are the languages of the Web.</figcaption>
+            </figure>
+
+            <p><strong>JavaScript was originally created in 1995 at Netscape</strong>, a very popular web browser back in the 90s. In the beggining, it only had <em>client-side</em> uses, which means it was only exectued by one's browser. However, the next year, Netscape introduced an implementation of the language for <em>server-side</em> scripting. Nowadays, many more implementation have been introduced, such as the widely-used <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">Node.js</a>.</p>
+
+            <p><strong>A JavaScript library is a file</strong> (or a set of multiple files) <strong>of pre-written JavaScript</strong>, which allows for easier development of JavaScript-based applications. It allows you to write down working code quicker, starting with a basis that you pick depending on your needs. Basically, a library consists in a set of helpful pre-defined functions and variables that you can use on-the-fly without having to build them from scratch.</p>
+
+            <!-- The most popular ones are <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> (a JavaScript library for building user interfaces, by the developers of Facebook and Instagram), <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">jQuery</a> (a library for DOM manipulation that has been around for a long while), and <a href="https://d3js.org/" target="_blank" rel="noopener noreferrer">D3</a> (for designing interactive data vizualisations). -->
+
+            <img src="img/p5.png" alt="Interface of editor.p5js.org">
+
+            <p><strong><a href="http://p5js.org" target="_blank" rel="noopener noreferrer">p5.js</a> is a JavaScript library</strong> that offers beginners the opportunity to learn to code through a graphic approach and a simple programming language, so that people like artists, designers, curious students and others can experiment and shape their ideas on their own. You will find many resources to guide you in the <a href="https://p5js.org/reference/" target="_blank" rel="noopener noreferrer">p5.js reference</a>.</p>
+
+
+            <p>Unlike what is shown in this module, programming is usually done using an <abbr data-tooltip="Integrated Development Environment">IDE</abbr> or a text editor, which is a computer program that edits plain text. You will find examples of text editors that you may download to refine your programming skills in the "Tools" list below.</p>
+
+            <h3>Tools</h3>
+
+            <ul>
+                <li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual Studio Code</a>, a free and powerful text editor</li>
+                <li><a href="https://atom.io/" target="_blank" rel="noopener noreferrer">Atom</a>, another free and customizable text editor</li>
+                <!-- add codepen & glitch -->
+            </ul>
+
+            <h3>Resources</h3>
+
+            <ul>
+                <li><a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA" target="_blank" rel="noopener noreferrer">Code! Programming with p5.js</a> is a youtube course by Daniel Shiffman, that focuses on the fundamentals of computer programming</li>
+                <li><a href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer">CodeCademy</a>, an online code course platform</li>
+                <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">Stackoverflow</a>, a platform for exchange between developers. Look there first when you encounter a code-related issue!</li>
+            </ul>
+
+            <h3>Projects</h3>
+
+            <div class="row items-3">
+                <div>
+                    <a href="https://codepen.io/MAKIO135/pen/YWYVNW" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                              <img src="img/programming_pen.gif">
+                              <figcaption><strong>Three.js</strong><br>JavaScript 3D library</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://aimxhaisse.com/aerodynamic-en.html" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                              <img src="img/programming_daft.jpg">
+                            <figcaption><strong>Sonic Pi</strong><br>Daft Punk with code</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/emlyon/makers-game" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/programming_table.gif">
+                            <figcaption><strong>Makers' game</strong><br>Maker's bootcamp #3</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Chatbot</title>
+    <script src="https://makerslab_emlyon.gitlab.io/js/include.js" charset="utf-8"></script>
+    <script src="https://makerslab_emlyon.gitlab.io/js/includes/head.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="wrap">
+        <main>
+            <h1>Intro to chatbot with IBM Watson Assistant</h1>
+
+            <p>Are you ready to <strong>create you first chatbot?</strong> In this module, you will <strong>use <a href="https://www.ibm.com/cloud/watson-assistant/" target="_blank" rel="noopener noreferrer">IBM Watson Assistant</a> to create your own conversational agent</strong>. Chatbots are a great way to add interactivity to a website or app. It enables you to automatically answers frequently asked questions, and sometimes it can be your salesperson!</p>
+
+            <iframe height="562" data-src="https://www.youtube-nocookie.com/embed/5ymocigSHO8?cc_load_policy=1&cc_lang_pref=en" allowfullscreen></iframe>
+
+            <hr>
+
+            <h2 class="bs-only"id="quiz">Quiz<i class="quiz big"></i></h2>
+            <h2 class="not-on-bs" id="quiz">Quiz</h2>
+
+            <p>Watch the video above first, then answer the quiz to make sure you understand the main notions. <strong>Some questions may need to look up elsewhere</strong> through a quick Internet search!</p>
+
+            <section class="warn bs-only">
+                <p><strong>This quiz is mandatory.</strong> You can answer this quiz as many times as you want, only your best score will be taken into account. Simply reload the page to get a new quiz.</p>
+            </section>
+
+            <section data-hide-before="part1-end" class="important">
+                  <p><strong>The due date has expired. You can no longer answer this quiz.</strong></p>
+            </section>
+            <section data-hide-after="part1-end" class="work quiz" data-quiz="chatbot"></section>
+
+            <hr>
+
+            <h2 class="bs-only" id="assignment">Assignment<i class="assignment big"></i></h2>
+            <h2 class="not-on-bs" id="assignment">Make it happen!</h2>
+
+            <section class="warn bs-only">
+                <p><strong>This assignment is mandatory.</strong> If you update your work but the link doesn't change, you don't need to re-submit it.</p>
+            </section>
+
+            <h3>Tools</h3>
+
+            <p><a href="https://www.ibm.com/cloud" target="_blank" rel="noopener noreferrer">IBM Cloud</a> is a robust suite of advanced data and AI tools, and deep industry expertise to help you on your journey to the cloud.</p>
+            <p><a href="https://www.ibm.com/cloud/watson-assistant/" target="_blank" rel="noopener noreferrer">Watson Assistant</a> is a tool, part of IBM Cloud, for building conversational interfaces into any application, device, or channel.</p>
+
+            <h3>Project</h3>
+
+            <ol>
+                <li>Start by creating an account on <a href="https://cloud.ibm.com" target="_blank" rel="noopener noreferrer">IBM Cloud</a> and create a <strong>Watson Assistant</strong> resource as shown in the video.</li>
+                <div class="bs-only">
+                    <li>Now create your own chatbot, it should contain at least <strong>two entities</strong> (excluding system entities) and <strong>two intents</strong>. You’re free to write it in English or in French! It’s up to you to choose what kind of questions it should be able to answer. Be creative!</li>
+                </div>
+
+                <div class="not-on-bs">
+                    <li>Now create your own chatbot by using entities, intents and the dialog flow. Don't hesitate to use the system entities and intents to detect complex user inputs. Be creative!</li>
+                </div>
+            </ol>
+
+            <section class="info">
+                <p>For example, you could make:</p>
+
+                <ul>
+                    <li>a recommendation chatbot for shopping, music, movies, etc.</li>
+                    <li>a personal assistant that can read a calendar, give the weather, etc.</li>
+                    <li>a customer support chatbot able to answer frequently asked questions</li>
+                </ul>
+            </section>
+
+            <section class="warn">
+                <p>Keep in mind that when you will be creating a chatbot for an application bigger than this assignment, <strong>the most important task is to gather real datas on your future users</strong>, what are their most frequently asked questions and how they talk about them.</p>
+            </section>
+
+            <h3>Resources</h3>
+
+            <ul>
+                <li><a href="https://cloud.ibm.com/docs/services/assistant" target="_blank" rel="noopener noreferrer">Official IBM documentation</a> of Watson Assistant.</li>
+                <li>If you want to reformat some of the datas, as shown in the video with <code>reformatDateTime()</code>, see the <a href="https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-methods" target="_blank" rel="noopener noreferrer">advanced data documentation</a></li>
+            </ul>
+
+            <div class="bs-only">
+                <h3>Submit</h3>
+
+                <p>When you’re done, export your chatbot as shown in the picture below:</p>
+
+                <img src="img/exportjson.png">
+
+                <p>Then, upload the generated <code>.json</code> file on <a href="https://gist.github.com" target="_blank" rel="noopener noreferrer">GitHub Gist</a> as shown in the video below. You will need to be connected to your GitHub account.</p>
+
+                <video src="https://i.imgur.com/5sgQNHY.mp4" type="video/mp4" controls></video>
+
+                <section data-hide-before="part1-end" class="important">
+                    <p><strong>The due date has expired. You can no longer submit your work.</strong></p>
+                </section>
+                <section data-hide-after="part1-end" class="work assignment">
+                    <form action="javascript:void(0)">
+                        <p><strong>Before submitting, make sure you check all of the criteria below.</strong></p>
+                        <ul>
+                          <li>
+                              <input type="checkbox" id="rule1" required>
+                              <label for="rule1">This work contains at least two entities and two intents</label>
+                          </li>
+                          <li>
+                              <input type="checkbox" id="rule2" required>
+                              <label for="rule2">Your chatbot answers user inputs depending on the entities and intents that you've implemented</label>
+                          </li>
+                          <li>
+                              <input type="checkbox" id="rule3" required>
+                              <label for="rule3"><strong>You did this work by yourself</strong>, and it’s not someone else’s</label>
+                          </li>
+                        </ul>
+                        <div class="row">
+                          <div>
+                              <input type="url" data-pattern="https://gist.github.com/" autocomplete="off" autocorrect="off" required data-tooltip="Make sure you don't add any<br>whitespace to your URL" title="">
+                          </div>
+                          <div class="no-flex">
+                              <button type="submit">Submit link</button>
+                          </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+            <hr>
+
+            <h2 id="going-further">Going further</h2>
+
+            <h3>Definitions</h3>
+
+            <ul>
+                <li>A chatbot, or conversational agent, is <strong>a computer program that interacts with users using conversation</strong>, via text or audio.</li>
+                <li><a href="https://en.wikipedia.org/wiki/Turing_test" target="_blank" rel="noopener noreferrer">The Turing Test</a>, is a famous <strong>test of a machine ability to show an intelligent behaviour</strong>. It is based on the idea that if a human is unable to determine if they are speaking to an human or a computer while speaking to a conversationnal agent, then the agent is deemed "intelligent". <a href="https://fr.wikipedia.org/wiki/Alan_Turing" target="_blank" rel="noopener noreferrer">Alan Turing</a> himself, gave some limitation to the test and even if nowadays some programs are able to pass the Turing Test, we are still far from <a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence" target="_blank" rel="noopener noreferrer">Artificial General Intelligence</a>.</li>
+            </ul>
+
+            <h3>Tools</h3>
+
+            <ul>
+                <li><a href="https://botsociety.io/" target="_blank" rel="noopener noreferrer">BotSociety</a>, a tool for creating mockups and video presentations of chatbots. A great tool for testing your UX before implementing it!</li>
+                <li><a href="https://dialogflow.com/" target="_blank" rel="noopener noreferrer">DialogFlow</a>, the Google chatbot framework. It's harder to use than IBM Watson Assistant but much more powerful!</li>
+                <li><a href="https://www.youtube.com/watch?v=SJDEOWLHYVo" target="_blank" rel="noopener noreferrer">How to code a chatbot <strong>from scratch</strong></a>, if you’re feeling adventurous and want to dig <em>even deeper</em>...</li>
+            </ul>
+
+            <h3>Resources</h3>
+
+            <ul>
+                <li><a href="https://uxdesign.cc/design-a-chatbot-for-shopping-on-amazon-df5143dda69c" target="_blank" rel="noopener noreferrer">UX advices on creating a chatbot</a>, a great tutorial on how to design the user experience of a chatbot.</li>
+                <li><a href="https://cai.tools.sap/blog/guide-to-designing-great-ux-for-your-ai-chatbot/" target="_blank" rel="noopener noreferrer">Another blog post by SAP</a>, also about chatbots' UX</li>
+                <li><a href="https://www.youtube.com/watch?v=IFLstgCNOA4" target="_blank" rel="noopener noreferrer">Stanford CS230: Chatbot</a>, a lecture from Stanford's Deep Learning course about chatbots and what are the underlying technologies behind them</li>
+                <li><a href="https://www.youtube.com/watch?v=slmSCEho31g" target="_blank" rel="noopener noreferrer">Introduction to Chatbots</a>, video series by The Coding Train</li>
+
+            </ul>
+
+            <h3>Projects</h3>
+
+            <div class="row items-3">
+                <div>
+                    <a href="https://respeaker.io" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                              <img src="img/respeaker.png">
+                              <figcaption><strong>Respeaker</strong><br>Alexa or Google Assistant on a Raspberry Pi</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://dialogflow.com/" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/dialogflow.png">
+                            <figcaption><strong>DialogFlow</strong><br>Google's chatbot framework</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://snips.ai/" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/snips.jpg">
+                            <figcaption><strong>Snips Seeed</strong><br>Open source voice platform</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

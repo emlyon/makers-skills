@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Classification</title>
+    <script src="https://makerslab_emlyon.gitlab.io/js/include.js" charset="utf-8"></script>
+    <script src="https://makerslab_emlyon.gitlab.io/js/includes/head.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="wrap">
+        <main>
+            <h1>Intro to classification with MobileNet</h1>
+
+            <p>Are you ready to <strong>discover classification with <a href="https://github.com/tensorflow/tfjs-models/blob/master/mobilenet" target="_blank" rel="noopener noreferrer">MobileNet</a></strong>? In this module, you will <strong>create your own image classification application</strong>! A few years ago, being able to automatically detect the content of a picture was <a href="https://www.explainxkcd.com/wiki/index.php/1425:_Tasks" target="_blank" rel="noopener noreferrer">science fiction</a>, now you can do it easily on a smartphone!</p>
+
+            <iframe height="562" data-src="https://www.youtube-nocookie.com/embed/v4XBR9cTrww?cc_load_policy=1&cc_lang_pref=en" allowfullscreen></iframe>
+
+            <hr>
+
+            <h2 class="bs-only"id="quiz">Quiz<i class="quiz big"></i></h2>
+            <h2 class="not-on-bs" id="quiz">Quiz</h2>
+
+            <p>Watch the video above first, then answer the quiz to make sure you understand the main notions. <strong>Some questions may need to look up elsewhere</strong> through a quick Internet search!</p>
+
+            <section class="warn bs-only">
+                <p><strong>This quiz is mandatory.</strong> You can answer this quiz as many times as you want, only your best score will be taken into account. Simply reload the page to get a new quiz.</p>
+            </section>
+
+            <section data-hide-before="part1-end" class="important">
+                  <p><strong>The due date has expired. You can no longer answer this quiz.</strong></p>
+            </section>
+            <section data-hide-after="part1-end" class="work quiz" data-quiz="classification"></section>
+
+            <hr>
+
+            <h2 class="bs-only" id="assignment">Assignment<i class="assignment big"></i></h2>
+            <h2 class="not-on-bs" id="assignment">Make it happen!</h2>
+
+            <section class="warn bs-only">
+                <p><strong>This assignment is mandatory.</strong> If you update your work but the link doesn't change, you don't need to re-submit it.</p>
+            </section>
+
+            <h3>Tools</h3>
+
+            <p><a href="https://editor.p5js.org" target="_blank" rel="noopener noreferrer">p5.js Web Editor</a>is a web editor for <a href="http://p5js.org/" target="_blank" rel="noopener noreferrer">p5.js</a>, a JavaScript library with the goal of making coding accessible to artists, designers, educators, and beginners.</p>
+
+            <p><a href="https://www.tensorflow.org/js/" target="_blank" rel="noopener noreferrer">TensorFlow.js</a> is a machine learning framework developped by Google. MobileNet, the model we are using for this project is one of its available pre-trained models.</p>
+
+            <p><a href="https://github.com/tensorflow/tfjs-models/blob/master/mobilenet" target="_blank" rel="noopener noreferrer">MobileNet</a> classify images with labels from the ImageNet database. MobileNets are small, low-latency, low-power models parameterized to meet the resource constraints of a variety of use cases.</p>
+
+            <h3>Project</h3>
+
+            <ol>
+                <li>
+                    <p>Log in on <a href="https://editor.p5js.org" target="_blank" rel="noopener noreferrer">p5.js web editor</a> with your GitHub account and create a copy of <a href="https://editor.p5js.org/makerslab/sketches/zldWu93LC" target="_blank" rel="noopener noreferrer">this project</a></p>
+                    <section class="info">
+                        <p>If you don't have a GitHub account, now is the time to <a href="https://github.com/join" target="_blank" rel="noopener noreferrer">sign up</a>!</p>
+                    </section>
+                </li>
+                <li>
+                    <p>Use MobileNet to create an application that detects automatically <strong>at least two objects</strong> of your choice from the classes available on MobileNet.</p>
+                    <section class="info">
+                        <p>You can find the full list of the classes that our pre-trained model can detect on its <a href="https://github.com/tensorflow/tfjs-models/blob/master/mobilenet/src/imagenet_classes.ts" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p>
+                    </section>
+                </li>
+                <div class="bs-only">
+                    <li>
+                        <p>Describe an use case associated with your application in your webpage. We expect at least an explanation on <strong>who</strong> would be your users and <strong>how</strong> they would benefit from your application.</p>
+                    </li>
+                </div>
+                <div class="not-on-bs">
+                    <li>
+                        <p>Describe an use case associated with your application in your webpage. For example, who would be your users and how they would benefit from your application.</p>
+                    </li>
+                </div>
+            </ol>
+
+            <div class="bs-only">
+                <h3>Submit</h3>
+
+                <section data-hide-before="part1-end" class="important">
+                    <p><strong>The due date has expired. You can no longer submit your work.</strong></p>
+                </section>
+                <section data-hide-after="part1-end" class="work assignment">
+                    <form action="javascript:void(0)">
+                        <p><strong>Before submitting, make sure you check all of the criteria below.</strong></p>
+
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="rule1" required>
+                                <label for="rule1">Your sketch uses MobileNet to automatically detect at least <strong>two</strong> objects of your choice</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule2" required>
+                                <label for="rule2">Your webpage fully describes an use case associated with these detections</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule3" required>
+                                <label for="rule3"><strong>You did this work by yourself</strong>, and it’s not someone else’s</label>
+                            </li>
+                        </ul>
+                        <div class="row">
+                          <div>
+                              <input type="url" data-pattern="https://editor.p5js.org/" autocomplete="off" autocorrect="off" required data-tooltip="Make sure you don't add any<br>whitespace to your URL" title="">
+                          </div>
+                          <div class="no-flex">
+                              <button type="submit">Submit link</button>
+                          </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+
+            <hr>
+
+            <h2 id="going-further">Going further</h2>
+
+            <figure>
+                <img src="img/machinelearning.png" alt="machine learning subfields">
+                <figcaption>Classification is a subfield of Supervised learning, itself a subfield of Machine Learning</figcaption>
+            </figure>
+
+            <h3>Definitions</h3>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noopener noreferrer">Machine Learning</a> is a subfield of Artificial Intelligence, it's a research domain that develops algorithms, called <strong>models</strong>, which "learns" from datas instead of classical algorithm which implements a set of predefined rules. The more (quality) datas you give to the algorithm, to more accurate it gets (to a certain extend).</li>
+                <li><a href="https://www.youtube.com/watch?v=cfj6yaYE86U" target="_blank" rel="noopener noreferrer">Supervised Learning</a> is a subfield of Machine Learning, it's a type of models where your training datasets includes both inputs and outputs. It means that you have a first set of datas (the training dataset) where you know the expected output(s) and you want the model to be able to extrapolate and predict a new output from data it has never encountered. The opposite is Unsupervised Learning, when you're trying to make sense of a dataset without knowing the expected output (for example finding similarities in a client database).</li>
+                <li><a href="https://en.wikipedia.org/wiki/Statistical_classification" target="_blank" rel="noopener noreferrer">Classification</a> is a subfield of Supervised Learning, where the expected output is discrete (think different categories, or yes/no). The opposite, when the output is continuous (a number), is called regression.</li>
+                <li><a href="https://arxiv.org/abs/1704.04861" target="_blank" rel="noopener noreferrer">MobileNets</a> are a series of <a href="https://www.youtube.com/watch?v=py5byOOHZM8" target="_blank" rel="noopener noreferrer">Convolutional Neural Networks</a>, that are made to do image recognition tasks on low-latency and low-power application (embedded or mobile for example)</li>
+                <li><a href="http://www.image-net.org/" target="_blank" rel="noopener noreferrer">ImageNet</a>is an image database of nearly 15 million images ordered by categories.. that's why we can use them to train classification models! It's also the name of different machine learning competitions (see <a href="https://www.kaggle.com/c/imagenet-object-localization-challenge" target="_blank" rel="noopener noreferrer">this one</a> for example)</li>
+            </ul>
+
+            <section class="info">
+                <p>Keep in mind that with MobileNet you are only scratching the surface of what can be done with classification. As soon as you see a model that outputs a category, a yes/no answer or an action to do it's a classification!</p>
+            </section>
+
+			<figure class="contained">
+                <video src="img/max.mp4" controls loop></video>
+				<figcaption><strong><a href="https://www.max-ai.com/" target="_blank" rel="noopener noreferrer">Max AI</a></strong>: a robot performing a classification task... sorting trash for recycling!</figcaption>
+			</figure>
+
+            <h3>Tools</h3>
+
+            <ul>
+                <li><a href="http://tensorflow.org/" target="_blank" rel="noopener noreferrer">TensorFlow</a>, is an open-source Python framework developped by Google, originally developped for doing complex calculations, it quickly became one of the most used tools for machine learning.<br><a href="http://tensorflow.org/js" target="_blank" rel="noopener noreferrer">Tensorflow.js</a>, is its Javascript implementation. You just learned how to use MobileNet, one of its <a href="http://tensorflow.org/js/models" target="_blank" rel="noopener noreferrer">pre-trained models</a>.</li>
+                <li><a href="https://ml5js.org" target="_blank" rel="noopener noreferrer">ml5.js</a>, is a Javascript framework developed by teachers from NYU. Built on top of Tensorflow.js it enables you to quickly use pre-trained model in your browser.</li>
+                <li><a href="https://runwayml.com/" target="_blank" rel="noopener noreferrer">Runway ML</a>, is a desktop app that makes it easy to try a lot a machine learning models.</li>
+            </ul>
+
+            <h3>Resources</h3>
+
+            <ul>
+                <li><a href="https://playground.tensorflow.org/" target="_blank" rel="noopener noreferrer">TensorFlow Playground</a>, let you with a neural network directly in a browser. You will learn how machine learning models really "learns" from datas and what is an <a href="https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)" target="_blank" rel="noopener noreferrer">hyperparameter</a>.</li>
+                <li><a href="http://scs.ryerson.ca/~aharley/vis/conv/flat.html" target="_blank" rel="noopener noreferrer">2D Visualisation of a <abbr data-tooltip="Convolutional Neural Network">CNN</abbr></a>, trying to recognise handwritten digits.</li>
+                <li><a href="https://www.inaturalist.org/" target="_blank" rel="noopener noreferrer">iNaturalist</a>, an example of a crowdsourcing website for wildlife conservation</li>
+            </ul>
+
+            <div class="row items-3">
+                <div>
+                    <a href="https://www.allesblinkt.com/projects/iller/" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/jller.png">
+                            <figcaption><strong>Jller</strong><br>Artistic implementation of classification</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://pixycam.com/pixy2/" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/pixy.gif">
+                            <figcaption><strong>Pixy2</strong><br>Embedded computer vision</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/emlyon/aipod" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                              <img src="img/aipod.png">
+                              <figcaption><strong>AIpod</strong><br>Musical setting from research papers</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

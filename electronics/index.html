@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Electronics</title>
+    <script src="https://makerslab_emlyon.gitlab.io/js/include.js" charset="utf-8"></script>
+    <script src="https://makerslab_emlyon.gitlab.io/js/includes/head.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="wrap">
+        <main>
+            <h1>Intro to electronics with Arduino</h1>
+
+            <p>Are you ready to <strong>dive into domotic, robotics and <abbr data-tooltip="Internet of Things">IoT</abbr>?</strong> In this module, you will learn how to use the electronics available at the makers' lab, and to <strong>make your first <a href="https://arduino.cc/" target="_blank" rel="noopener noreferrer">Arduino</a> circuits</strong> and programs using <a href="https://www.tinkercad.com/" target="_blank" rel="noopener noreferrer">Tinkercad</a>.</p>
+
+            <iframe height="562" data-src="https://www.youtube-nocookie.com/embed/EPOBhffS5u4?cc_load_policy=1&cc_lang_pref=en" allowfullscreen></iframe>
+
+            <hr>
+
+            <h2 class="bs-only"id="quiz">Quiz<i class="quiz big"></i></h2>
+            <h2 class="not-on-bs" id="quiz">Quiz</h2>
+
+            <p>Watch the video above first, then answer the quiz to make sure you understand the main notions. <strong>Some questions may need to look up elsewhere</strong> through a quick Internet search!</p>
+
+            <section class="warn bs-only">
+                <p><strong>This quiz is mandatory.</strong> You can answer this quiz as many times as you want, only your best score will be taken into account. Simply reload the page to get a new quiz.</p>
+            </section>
+
+            <section data-hide-before="part1-end" class="important">
+                  <p><strong>The due date has expired. You can no longer answer this quiz.</strong></p>
+            </section>
+            <section data-hide-after="part1-end" class="work quiz" data-quiz="electronics"></section>
+
+            <hr>
+
+            <h2 class="bs-only" id="assignment">Assignment<i class="assignment big"></i></h2>
+            <h2 class="not-on-bs" id="assignment">Make it happen!</h2>
+
+            <section class="warn bs-only">
+                <p><strong>This assignment is mandatory.</strong> If you update your work but the link doesn't change, you don't need to re-submit it.</p>
+            </section>
+
+            <h3>tools</h3>
+
+            <p><a href="https://www.tinkercad.com/" target="_blank" rel="noopener noreferrer">Tinkercad Circuit</a> is a tool to protoype electronics in your browser. It's part of the software suite Tinkercad wich is a free online collection of software tools that help people all over the world think, create and make.</p>
+
+            <p><a href="https://www.arduino.cc/" target="_blank" rel="noopener noreferrer">Arduino</a> is an open-source electronic prototyping platform enabling users to create interactive electronic objects. The UNO is the best board to get started with electronics and coding.</p>
+
+            <h3>project</h3>
+
+            <section class="info bs-only">
+                <p>You have to create a free account on <a href="https://www.tinkercad.com/" target="_blank" rel="noopener noreferrer">Tinkercad Circuit</a> to make your project.
+            </section>
+
+            <p>Prototype a Traffic Light Trigger based on circuits and code from "Hello Arduino", "Blinking Leds" and "Using Button" by creating a circuit with 3 LEDs (one red, one orange, one green) and one button. <strong>The program has to fullfil the following scenario:</strong></p>
+
+            <ol>
+                <li>On boot, the red LED should be turned on, the orange and green ones should be turned off.</li>
+                <li>When the button is pressed, the red one turns off and the green one turns on for a few seconds.</li>
+                <li>Then, the green one turns off and orange turns on for 1 second.</li>
+                <li>Finally, orange turns off and red turns on, until the button is pressed again.</li>
+            </ol>
+
+            <figure>
+                <img src="img/circuitFeuSignalisation.gif" alt="Traffic Light Trigger Circuit">
+                <figcaption>This is what your circuit should look like, and how it should behave.</figcaption>
+            </figure>
+
+            <h3>Resources</h3>
+
+            <ul>
+                <li><a href="https://www.tinkercad.com/things/0fF4fUQpMRP-hello-arduino-" target="_blank" rel="noopener noreferrer"><strong>Tinkercad Circuit link for Hello Arduino</strong> by makers' lab</a></li>
+                <li><a href="https://www.tinkercad.com/things/k5QBCyVM8JU-blinking-leds" target="_blank" rel="noopener noreferrer"><strong>Tinkercad Circuit link for Blinking LEDs</strong> by makers' lab</a></li>
+                <li><a href="https://www.tinkercad.com/things/5PRF0uLZiOw" target="_blank" rel="noopener noreferrer"><strong>Tinkercad Circuit link for Using Button</strong> by makers' lab</a></li>
+                <li><a href="https://www.arduino.cc/en/Guide/Introduction" target="_blank" rel="noopener noreferrer">What is Arduino?</a></li>
+                <li><a href="https://www.arduino.cc/en/Reference/HomePage" target="_blank" rel="noopener noreferrer">Arduino Language Reference</a></li>
+            </ul>
+
+            <div class="bs-only">
+                <h3>Submit</h3>
+
+                <p>In order to share your circuit with us, you'll need to make it public:</p>
+
+                <video class="contained" src="https://i.imgur.com/0MqbtME.mp4" type="video/mp4" controls></video>
+
+                <section data-hide-before="part1-end" class="important">
+                    <p><strong>The due date has expired. You can no longer submit your work.</strong></p>
+                </section>
+                <section data-hide-after="part1-end" class="work assignment">
+                    <form action="javascript:void(0)">
+                        <p><strong>Before submitting, make sure you check all of the criteria below.</strong></p>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="rule1" required>
+                                <label for="rule1">Your circuit respects the scenario described above</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule2" required>
+                                <label for="rule2">Your circuit's visibility setting is set to "public"</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule3" required>
+                                <label for="rule3"><strong>You did this work by yourself</strong>, and it’s not someone else’s</label>
+                            </li>
+                        </ul>
+                        <div class="row">
+                            <div>
+                                <input type="url" data-pattern="https://www.tinkercad.com/things/" autocomplete="off" autocorrect="off" required data-tooltip="Make sure you don't add any<br>whitespace to your URL" title="">
+                            </div>
+                            <div class="no-flex">
+                                <button type="submit">Submit link</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+
+            <hr>
+
+            <h2>Going further</h2>
+
+            <h3>Definitions</h3>
+
+            <p><a href="https://www.arduino.cc/" target="_blank" rel="noopener noreferrer">Arduino</a> originally started as a research project at the Interaction Design Institute of Ivrea (Italy) in the early 2000s. <strong>The first Arduino board was introduced in 2005</strong> to help design students (who had no previous experience in electronics or microcontroller programming) to create working prototypes connecting the physical world to the digital world. Since then it has become a popular electronics prototyping tool.</p>
+
+            <p><strong>Arduino is an <a href="https://opensource.com/resources/what-open-hardware" target="_blank" rel="noopener noreferrer">open-source hardware</a> and software ecosystem.</strong> The company offers a range of software tools, hardware platforms and documentation enabling almost anybody to be creative with technology. Arduino boards are able to read inputs (light on a sensor, a finger on a button, or a Twitter message) and turn it into an output (activating a motor, turning on an LED, publishing something online).</p>
+
+            <p><strong>A worldwide community of makers</strong> (students, hobbyists, artists, programmers, and professionals) has gathered around this open-source platform, and their contributions have added up to an incredible amount of accessible knowledge that can be of great help to novices and experts alike. The community helps debug the code, writes examples, creates tutorials and supports other users on <a href="https://forum.arduino.cc/" target="_blank" rel="noopener noreferrer">the forums</a>. <strong>The openness and ease-of-use of the project</strong> has led to mass adoption of micro-controller based electronics projects and was a catalyst in the creation of the <a href="https://www.instructables.com/id/Arduino-Projects/" target="_blank" rel="noopener noreferrer">Maker Movement</a>.</p>
+
+            <h3>Tools</h3>
+
+            <ul>
+                <li><a href="https://www.circuito.io/" target="_blank" rel="noopener noreferrer">Circuito.io</a>, design your circuit and instantly get a detailed Bill of Materials, wiring guide and test code for your electronic circuit and bring your project to life.</li>
+                <li><a href="http://fritzing.org/home/" target="_blank" rel="noopener noreferrer">Fritzing</a> is an open-source hardware initiative that makes electronics accessible as a creative material for anyone.</li>
+            </ul>
+
+            <h3>Resources</h3>
+
+            <ul>
+                <li><a href="https://www.instructables.com/member/circuits/instructables/" target="_blank" rel="noopener noreferrer">Tinkercad Circuits Projects</a> on Insctructables</li>
+                <li><a href="https://learn.adafruit.com/lesson-0-getting-started?view=all" target="_blank" rel="noopener noreferrer">Getting started with Arduino</a> from the Adafruit Learning System</li>
+                <li><a href="https://www.instructables.com/circuits/arduino/projects/" target="_blank" rel="noopener noreferrer">Documented Arduino projects</a> on Instructables</li>
+                <li><a href="https://cartesmagiques.fr/" target="_blank" rel="noopener noreferrer">Cartes Magiques</a>, a guide to help you choose the right electronic board</li>
+            </ul>
+
+            <h3>Projects</h3>
+
+            <!-- <p>Over the years Arduino has been the brain of thousands of projects, from everyday objects to complex scientific instruments. <a href="https://www.youtube.com/watch?v=rKhbUjVyKIc" target="_blank" rel="noopener noreferrer">A fun project to watch</a>!</p> -->
+
+            <div class="row items-3">
+                <div>
+                    <a href="https://blog.arduino.cc/2019/07/05/random-sticks-made-to-walk-under-arduino-control/" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/sticks.jpeg" alt="Sticks robots">
+                            <figcaption><strong>Sticks robots</strong><br>Arduino & AI</figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="http://inmoov.fr/" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/electronics_inmoov.jpg" alt="inmoov Robot">
+                            <figcaption><strong>inMoov Robot</strong><br>Open source robot</figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="https://github.com/emlyon/makerspot-electronic" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/makerspot.jpg" alt="Maker's pot">
+                            <figcaption><strong>Makers' pot</strong><br>Connected gardens</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Computer Vision</title>
+    <script src="https://makerslab_emlyon.gitlab.io/js/include.js" charset="utf-8"></script>
+    <script src="https://makerslab_emlyon.gitlab.io/js/includes/head.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="wrap">
+        <main>
+            <h1>Intro to Computer Vision with PoseNet</h1>
+
+            <p>Are you ready to <strong>play with your first computer vision model?</strong> In this module, you will learn how computers make sense of the content of a picture, how they detect humans, and <strong>how to use <a href="https://github.com/tensorflow/tfjs-models/tree/master/posenet" target="_blank" rel="noopener noreferrer">PoseNet</a> and <a href="https://p5js.org" target="_blank" rel="noopener noreferrer">p5.js</a> to create an augmented reality filter!</strong></p>
+
+            <iframe height="562" data-src="https://www.youtube-nocookie.com/embed/MSFPlQ_xTU8?cc_load_policy=1&cc_lang_pref=en" allowfullscreen></iframe>
+
+            <hr>
+
+            <h2 class="bs-only"id="quiz">Quiz<i class="quiz big"></i></h2>
+            <h2 class="not-on-bs" id="quiz">Quiz</h2>
+
+            <p>Watch the video above first, then answer the quiz to make sure you understand the main notions. <strong>Some questions may need to look up elsewhere</strong> through a quick Internet search!</p>
+
+            <section class="warn bs-only">
+                <p><strong>This quiz is mandatory.</strong> You can answer this quiz as many times as you want, only your best score will be taken into account. Simply reload the page to get a new quiz.</p>
+            </section>
+
+            <section data-hide-before="part1-end" class="important">
+                  <p><strong>The due date has expired. You can no longer answer this quiz.</strong></p>
+            </section>
+            <section data-hide-after="part1-end" class="work quiz" data-quiz="computer-vision"></section>
+
+            <hr>
+
+            <h2 class="bs-only" id="assignment">Assignment<i class="assignment big"></i></h2>
+            <h2 class="not-on-bs" id="assignment">Make it happen!</h2>
+
+            <section class="warn bs-only">
+                <p><strong>This assignment is mandatory.</strong> If you update your work but the link doesn't change, you don't need to re-submit it.</p>
+            </section>
+
+            <h3>Tools</h3>
+
+            <p><a href="https://editor.p5js.org" target="_blank" rel="noopener noreferrer">p5.js Web Editor</a>is a web editor for <a href="http://p5js.org/" target="_blank" rel="noopener noreferrer">p5.js</a>, a JavaScript library with the goal of making coding accessible to artists, designers, educators, and beginners.</p>
+
+            <p><a href="http://tensorflow.org/js" target="_blank" rel="noopener noreferrer">Tensorflow.js</a>, is its Javascript implementation. You just learned how to use PoseNet, one of its <a href="http://tensorflow.org/js/models" target="_blank" rel="noopener noreferrer">pre-trained models</a>.</p>
+
+            <p><a href="https://github.com/tensorflow/tfjs-models/tree/master/posenet" target="_blank" rel="noopener noreferrer">PoseNet</a> is a machine learning model which allows for real-time human pose estimation in the browser.</p>
+
+
+            <h3>Project</h3>
+
+            <ol>
+                <li>
+                    <p>Log in on <a href="https://editor.p5js.org" target="_blank" rel="noopener noreferrer">p5.js web editor</a> with your GitHub account and create a copy of <a href="https://editor.p5js.org/makerslab/sketches/Cu4TrKwJI" target="_blank" rel="noopener noreferrer">this project</a>.</p>
+                    <section class="info">
+                        <p>If you don't have a GitHub account, now is the time to <a href="https://github.com/join" target="_blank" rel="noopener noreferrer">sign up</a>!</p>
+                    </section>
+                </li>
+                <div class="bs-only">
+                    <li>
+                        <p><strong>Use PoseNet to make your own augmented reality filter.</strong> You can use any picture you like or functions from the p5.js library as long as your filter:</p>
+                        <ul>
+                            <li>follows at least two elements of the pose other than the ones showed in the video (nose and eyes)</li>
+                            <li>rescale according to the distance between user and camera.</li>
+                        </ul>
+                    </li>
+                </div>
+                <div class="not-on-bs">
+                    <li>
+                        <strong>Use PoseNet to make your own augmented reality filter.</strong> Feel free to use any picture you like and/or drawing functions from the p5.js library.
+                    </li>
+                </div>
+                <section class="info">
+                    <p>You can refer to the <a href="https://github.com/tensorflow/tfjs-models/tree/master/posenet" target="_blank" rel="noopener noreferrer">Posenet Github repository</a> to find an in-depth documentation and the keypoints list.</p>
+                </section>
+                <li><strong>Be creative!</strong> Feel free to add sound, animations, or multiple images!</li>
+            </ol>
+
+
+            <div class="bs-only">
+                <h3>Submit</h3>
+
+                <p>When you’re done, copy the link to your p5.js sketch in the form below.</p>
+
+                <section data-hide-before="part1-end" class="important">
+                    <p><strong>The due date has expired. You can no longer submit your work.</strong></p>
+                </section>
+                <section data-hide-after="part1-end" class="work assignment">
+                    <form action="javascript:void(0)">
+                        <p><strong>Before submitting, make sure you check all of the criteria below.</strong></p>
+                        <ul>
+                          <li>
+                              <input type="checkbox" id="rule1" required>
+                              <label for="rule1">My filter follow <strong>at least two element</strong> of the "pose" other than the eyes or the nose</label>
+                          </li>
+                          <li>
+                              <input type="checkbox" id="rule2" required>
+                              <label for="rule2">My filter <strong>rescales automatically</strong> based on the distance between user and camera</label>
+                          </li>
+                          <li>
+                              <input type="checkbox" id="rule3" required>
+                              <label for="rule3"><strong>You did this work by yourself</strong>, and it’s not someone else’s</label>
+                          </li>
+                        </ul>
+                        <div class="row">
+                          <div>
+                              <input type="url" data-pattern="https://editor.p5js.org/" autocomplete="off" autocorrect="off" required data-tooltip="Make sure you don't add any<br>whitespace to your URL" title="">
+                          </div>
+                          <div class="no-flex">
+                              <button type="submit">Submit link</button>
+                          </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+
+            <hr>
+
+            <h2 id="going-further">Going further</h2>
+
+            <h3>Definitions</h3>
+
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Computer_vision" target="_blank" rel="noopener noreferrer">Computer Vision</a>, is a subfield of computer science that focuses on giving computer an higher lever understanding of images (photos or videos). Examples of computer vision research fields are: image segmentation, optical character recognition (OCR), face recognition, etc.</li>
+                <li><a href="https://en.wikipedia.org/wiki/Augmented_reality" target="_blank" rel="noopener noreferrer">Augmented Reality</a> (AR), is the superposition of computer generated elements (including but not limited to: text, pictures or sounds) on a representation of the real world.</li>
+            </ul>
+
+
+            <h3>Tools</h3>
+
+            <ul>
+                <li><a href="http://tensorflow.org/" target="_blank" rel="noopener noreferrer">TensorFlow</a>, is an open-source Python framework developped by Google, originally developped for doing complex calcultations, it quickly became one of the most used tools for machine learning.<br><a href="http://tensorflow.org/js" target="_blank" rel="noopener noreferrer">Tensorflow.js</a>, is its Javascript implementation. You just learned how to use PoseNet, one of its <a href="http://tensorflow.org/js/models" target="_blank" rel="noopener noreferrer">pre-trained models</a>.</li>
+                <li><a href="https://ml5js.org" target="_blank" rel="noopener noreferrer">ml5.js</a>, is a Javascript framework developed by teachers from NYU. Built on top of Tensorflow.js it enables you to quickly use pre-trained model in your browser.</li>
+                <li><a href="https://runwayml.com/" target="_blank" rel="noopener noreferrer">Runway ML</a>, is a desktop app that makes it easy to try a lot a machine learning models.</li>
+                <li><a href="https://lensstudio.snapchat.com/" target="_blank" rel="noopener noreferrer">Lens Studio</a>, is the official app by Snapchat for creating custom filters.</li>
+            </ul>
+
+            <h3>Resources</h3>
+
+            <ul>
+                <li><a href="https://github.com/tensorflow/tfjs-models/tree/master/posenet" target="_blank" rel="noopener noreferrer">PoseNet model documentation</a></li>
+                <li><a href="https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5" target="_blank" rel="noopener noreferrer">In-depth Medium post by the TensorFlow team</a>, going into the details of how Posenet works, it will tell you everything that you've always wanted to know!</li>
+            </ul>
+
+            <h3>Projects</h3>
+
+            <div class="row items-3">
+                <div>
+                    <a href="https://experiments.withgoogle.com/billtjonesai" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                              <img src="img/dancer.gif">
+                              <figcaption><strong>Body, Movement, Language</strong><br>Dance performance</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.remove.bg" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                              <img src="img/removebg.gif">
+                              <figcaption><strong>remove.bg</strong><br>Automatic image background removal</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="http://makerslab.em-lyon.com/workshops.html#bootcamps" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                              <img src="img/emlyon1926.jpg">
+                              <figcaption><strong>Makers' bootcamp #7</strong><br>Magic mirror<br>(coming soon)</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

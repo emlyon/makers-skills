@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>3D Printing</title>
+    <script src="https://makerslab_emlyon.gitlab.io/js/include.js" charset="utf-8"></script>
+    <script src="https://makerslab_emlyon.gitlab.io/js/includes/head.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="wrap">
+        <main>
+            <h1>Intro to 3D printing with Zortrax</h1>
+
+            <p>Are you ready to <strong>discover 3D printing</strong> and to be able to <strong>make your first 3D print?</strong> In this module, you will learn how to use a <a href="https://zortrax.com/3d-printers/m200-plus/" target="_blank" rel="noopener noreferrer">Zortrax M200</a> to make your first print and share it on <a href="https://www.thingiverse.com/" target="_blank" rel="noopener noreferrer">Thingiverse</a>.</p>
+
+            <iframe height="562" data-src="https://www.youtube-nocookie.com/embed/FzPWmxMxMAc?cc_load_policy=1" allowfullscreen></iframe>
+
+            <hr>
+
+            <h2 class="bs-only"id="quiz">Quiz<i class="quiz big"></i></h2>
+            <h2 class="not-on-bs" id="quiz">Quiz</h2>
+
+            <p>Watch the video above first, then answer the quiz to make sure you understand the main notions. <strong>Some questions may need to look up elsewhere</strong> through a quick Internet search!</p>
+
+            <section class="warn bs-only">
+                <p><strong>This quiz is mandatory.</strong> You can answer this quiz as many times as you want, only your best score will be taken into account. Simply reload the page to get a new quiz.</p>
+            </section>
+
+            <section data-hide-before="part1-end" class="important">
+                  <p><strong>The due date has expired. You can no longer answer this quiz.</strong></p>
+            </section>
+            <section data-hide-after="part1-end" class="work quiz" data-quiz="3d-printing"></section>
+
+            <hr>
+
+            <h2 class="bs-only" id="assignment">Assignment<i class="assignment big"></i></h2>
+            <h2 class="not-on-bs" id="assignment">Make it happen!</h2>
+
+            <section class="warn bs-only">
+                <p><strong>This assignment is mandatory.</strong> If you update your work but the link doesn't change, you don't need to re-submit it.</p>
+            </section>
+
+            <h3>Tools</h3>
+
+            <p><a href="https://thingiverse.com/" target="_blank" rel="noopener noreferrer">Thingiverse</a> is a platform gathering a large community of makers, where you can find and share 2D and 3D files.</p>
+            <p>The <a href="https://zortrax.com/printers/zortrax-m200/" target="_blank" rel="noopener noreferrer">Zortrax M200</a> is a 3D printer you may find at the makers' lab, in any emlyon campus: <strong>this machine is at your disposal!</strong> At the end of this course, do not hesitate to use this amazing tool for your own projects.</p>
+            <p><a href="https://zortrax.com/software/" target="_blank" rel="noopener noreferrer">Z-suite</a> is Zortrax Slicer. You'll configure your print and send it to the SD card through this software.</p>
+
+            <h3>Project</h3>
+
+            <p>To do it yourself, you can download and 3D print an <a href="https://www.thingiverse.com/thing:2066379" target="_blank" rel="noopener noreferrer">emlyon marvin test</a> from Thingiverse. You will always find <a href="https://zortrax.com/materials/zortrax-m-series/#z-ultrat" target="_blank" rel="noopener noreferrer">Z-ULTRAT material</a> loaded on the machine at makers' lab.</p>
+
+            <section class="warn">
+                <p>We strongly recommend to choose <strong>0.19mm</strong> as layer thickness parameter in Z-SUITE for this project. You also have some parameters recommendations in the intro to 3D printing video. <strong>Set 0° on support parameter</strong> when you print your marvin test. 0° settings remove all supports. Supports take time and material but could be necessary for some 3D prints. You can also read the complete documentation of <a href="https://support.zortrax.com/z-suite-manual/#step_16" target="_blank" rel="noopener noreferrer">Z-SUITE parameters</a>.<br></p>
+            </section>
+
+            <div class="bs-only">
+                <h3>Submit</h3>
+
+                <p><a href="https://accounts.thingiverse.com/register" target="_blank" rel="noopener noreferrer">Create a Thingiverse account</a> and take a picture of your printing to share it by clicking on "Post a make" on the <a href="https://www.thingiverse.com/thing:2066379" target="_blank" rel="noopener noreferrer">emlyon Marvin test page</a>. Don't forget to submit the link to your picture below!</p>
+
+                <section data-hide-before="part1-end" class="important">
+                    <p><strong>The due date has expired. You can no longer submit your work.</strong></p>
+                </section>
+                <section data-hide-after="part1-end" class="work assignment">
+                    <form action="javascript:void(0)">
+                        <p><strong>Before submitting, make sure you check all of the criteria below.</strong></p>
+
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="rule1" required>
+                                <label for="rule1">This link leads to a picture of your printed Marvin</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule2" required>
+                                <label for="rule2"><strong>You did this work by yourself</strong>, and it’s not someone else’s</label>
+                            </li>
+                        </ul>
+                        <div class="row">
+                            <div>
+                                <input type="url" data-pattern="https://www.thingiverse.com/make:" name="link" autocomplete="off" autocorrect="off" required data-tooltip="Make sure you don't add any<br>whitespace to your URL" title="">
+                            </div>
+                            <div class="no-flex">
+                                <button type="submit">Submit link</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+
+            <hr>
+
+            <h2 id="going-further">Going further</h2>
+
+            <h3>Definitions</h3>
+
+            <p><a href="https://en.wikipedia.org/wiki/3D" target="_blank" rel="noopener noreferrer"><strong>3D</strong></a> means three-dimensional : The three dimensions are often called length (or depth), width and height.</p>
+
+            <p><code>.stl</code> is the most common file format for 3D printing. A <abbr data-tooltip="Standard Tessellation Language">STL</abbr> file only contains the shape of your model, not colors. It can be opened with 3D softwares only, like <a href="https://tinkercad.com/" target="_blank" rel="noopener noreferrer">Tinkercad</a> or Z-suite.</p>
+
+            <p>A <strong>slicer</strong> is the name given to the softwares generating a machine code from a 3D file (like <code>.stl</code>). Basically it will transform your model into layers for the 3D printers.</p>
+
+            <p>There are lots of different 3D printing technologies. Discover the main ones :</p>
+            <ul>
+              <li><abbr data-tooltip="Fused Deposing Modeling">FDM</abbr> is the most common and affordable method: it uses <strong>thermoplastic filament</strong> which is heated and extruded layer by layer. The Zortrax M200 in the makers'labs are FDM machines.</li>
+              <li><abbr data-tooltip="StereoLithography Apparatus">SLA</abbr> is a method using an <abbr data-tooltip="Ultra Violet">UV</abbr> laser beam to cure a <strong>liquid resin</strong>. It's more occurate than FDM and used for very detailed projects. Watch a <a href="https://www.youtube.com/watch?v=klW0nuefofY" target="_blank" rel="noopener noreferrer">timelapse video</a> of the Formlabs 3D printer.</li>
+              <li><abbr data-tooltip="Selective Laser Sintering">SLS</abbr> is an industrial process, using a laser to sinter <strong>powder material</strong>.</li>
+            </ul>
+
+            <div class="row items-3">
+                <div>
+                        <figure class="card">
+                            <img src="img/FDM.jpg" alt="Fused Deposing Modeling">
+                            <figcaption>FDM</figcaption>
+                        </figure>
+                </div>
+                <div>
+                        <figure class="card">
+                            <img src="img/SLA.jpg" alt="StereoLithography Apparatus">
+                            <figcaption>SLA</figcaption>
+                        </figure>
+                </div>
+                <div>
+                        <figure class="card">
+                            <img src="img/SLS.JPG" alt="Selective Laser Sintering">
+                            <figcaption>SLS</figcaption>
+                        </figure>
+                </div>
+            </div>
+
+
+            <h3>Tools</h3>
+
+            <ul>
+              <li>On <a href="https://www.sculpteo.com/en/" target="_blank" rel="noopener noreferrer">Sculpteo</a> you can send your own file to manufacture them with industrial machines and materials.</li>
+              <li><a href="https://tools3d.azurewebsites.net/" target="_blank" rel="noopener noreferrer">3D Tools</a> service let you fix your 3D models before 3D printing them, you will need a <a href="https://signup.live.com/?lic=1"  target="_blank" rel="noopener noreferrer">microsoft account</a> to use it</li>
+              <li>Open, visualize and edit your 3D model (<code>.obj</code> and <code>.stl</code> only) quickly on <a href="https://www.tinkercad.com//" target="_blank" rel="noopener noreferrer">Tinkercad</a>.</li>
+              <li><a href="https://sketchfab.com/" target="_blank" rel="noopener noreferrer">Sketchfab</a> is a place to find and share 3D models, it offers beautiful rendering and even a VR viewer option.</li>
+            </ul>
+
+            <h3>Resources</h3>
+
+            <ul>
+              <li><a href="https://cults3d.com/" target="_blank" rel="noopener noreferrer">Cults 3D</a> is another platform to find and share tons of 3D projects.</li>
+              <li>The 3D-Hubs <a href="https://www.3dhubs.com/guides/3d-printing/" target="_blank" rel="noopener noreferrer">3D printing guide</a>.</li>
+              <li>The Zortrax website gives you <a href="https://support.zortrax.com/m-series-printing-tips/" target="_blank" rel="noopener noreferrer">printing tips</a> to master the M200 our 3D printers.</li>
+              <li>A guide to discover <a href="https://www.makerbot.com/professional/post-processing/" target="_blank" rel="noopener noreferrer">post-processing techniques </a>from Makerbot website.</li>
+              <li>A class to learn to design <a href="https://www.instructables.com/class/3D-Printing-With-Circuits-Class/" target="_blank" rel="noopener noreferrer">3D prints with incorporated electronics</a>.</li>
+            </ul>
+
+            <h3>Projects</h3>
+
+            <p>Here are some examples of what you can do when you'll master 3D printing: be creative!</p>
+            <div class="row items-3">
+                <div>
+                    <a href="https://e-nable.fr/" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/enable.PNG">
+                            <figcaption><strong>E-nable</strong><br>Prothetic hand</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://nasa3d.arc.nasa.gov/detail/wrench-mis" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/nasa.PNG">
+                            <figcaption><strong>NASA wrench</strong><br>the "e-mailed" tool</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.thingiverse.com/thing:2810665" target="_blank" rel="noopener noreferrer">
+                        <figure class="card">
+                            <img src="img/3D_bootcamp5.jpg">
+                            <figcaption><strong>Makers' bootcamp #5</strong><br>Indoor garden</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
